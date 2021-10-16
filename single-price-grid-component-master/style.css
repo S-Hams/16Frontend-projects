@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+}
+
+html,body {
+    padding:0;
+    margin:0;
+    height:100%;
+}
+
+#upperpart {
+    /* position: relative; */
+    height: 50%;
+    width: 100%;
+    background-color: rgb(250, 249, 249);
+
+}
+
+.container{
+    width: 80%;
+    /* height: 80%; */
+    /* position e relative ro midim ke top, left kar konan */
+    position: relative;
+    top: 50%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+  /* width: 50%; */
+}
+
+#lowerpart{
+  
+}
+
+#lowerleft{
+    
+    height: 50vh;
+    width: 50%;
+    background-color: rgb(29, 175, 175);
+    float: left;
+}
+
+#lowerright{
+   
+    height: 50vh;
+    width: 50%;
+    background-color: rgb(60, 196, 178);
+    float: right;
+}
+
+#uppertitle{
+    color: rgb(19, 211, 169);
+    font-size: x-large;
+}
+
+#upperdesc1{
+    color: rgb(153, 250, 8);
+    margin: 1.7rem 0 .75rem ;
+}
+
+#upperdesc2{
+    color: rgb(152, 173, 150);
+    
+}
+
+#lowerrighttitle{
+    color: rgb(248, 250, 249);
+    font-size: x-large;
+}
+
+#lowerrightdesc {
+    color: rgb(241, 245, 244);
+    margin: 1.7rem 0 .75rem ;
+    line-height: 1.6rem;
+}
+
+#lowerlefttitle{
+    color: rgb(248, 250, 249);
+    font-size: x-large;
+}
+#leftcost{
+    /* margin : 1.7rem 0 ; */
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  
+  
+}
+
+#price, #pricedesc{
+    display : inline ;
+    /* margin : auto auto; */
+    margin: 1.5rem 0 0 0;
+    
+}
+
+#price{
+    color: rgb(248, 250, 249);
+    font-size:xx-large;
+    margin-right: 0.5rem ;
+}
+
+#pricedesc{
+    color: rgb(171, 233, 202);
+}
+
+#lowerleftdesc{
+    color: rgb(248, 250, 249);
+    margin : .5rem 0 1.5rem 0  ;
+}
+
+#signupbtn{
+    background-color: rgb(154, 230, 42);
+    width: 100%;
+    height: 100%;
+    padding: .8rem;
+    border-radius: .5rem;
+    color: rgb(246, 250, 248);
+    border: none;
+}
+
+
+
+

@@ -10,12 +10,16 @@ html,body{
 }
 
 #container{
-    
     width: 100%;
     /* display: relative; */
     /* padding: 1rem; */
     margin : 0 !important;
 }
+
+.container{
+    padding: 0 2rem;
+}
+
 
 #navbar{
     display: flex;
@@ -86,8 +90,8 @@ html,body{
     width: 70%;
     display: flex;
     flex-wrap: wrap;
-    
 }
+
 p{ 
     margin : 0
 }
@@ -270,6 +274,7 @@ height: auto;
 
 
 #footer {
+
     padding: 1rem;
     background-color: rgb(20, 2, 59);
     margin : 5rem 0 0 0 ;
@@ -318,6 +323,7 @@ height: auto;
 
 #footeraddresslower>img{
     width: 30px;
+    height: 20px;
 
 }
 
@@ -350,4 +356,57 @@ a{
 a:hover{
     text-decoration: underline;
     color: white;
+}
+
+@media only screen and (max-width: 700px) {
+
+    .container{
+        padding: 0 .5rem;
+    }
+
+    #navbarright a{
+        margin : 0 .5rem;
+    }
+
+    #part3 {
+        flex-direction: column;
+}
+
+#part3right,#part3left {
+    width: 90%;
+}
+
+#footerlower {
+    flex-direction: column;
+    /* height: 800px; */
+}
+
+.footercol,#footeraddress{
+width: 100%;
+
+}
+
+#footeraddresslower>p{
+    height: auto;
+}
+
+.footercol:nth-child(3),.footercol:nth-child(4),.footercol:nth-child(5)
+{
+ margin-top: 1rem !important;   
+}
+
+#socialcol{
+    align-self: center;
+}
+
+}
+
+
+@media only screen and (max-width: 400px) {
+#part2center {
+    width: 90%;}
+
+    .features {
+        width: 90%;
+    }
 }
